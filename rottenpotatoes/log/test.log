@@ -3382,3 +3382,5 @@ Processing by MoviesController#similar as HTML
   Rendered movies/similar.html.haml within layouts/application (0.1ms)
 Completed 200 OK in 2.4ms (Views: 2.1ms | ActiveRecord: 0.0ms)
   [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
