@@ -10,9 +10,22 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "/home/ubuntu/workspace/bdd-tdd-cycle/rottenpotatoes/app/controllers/movies_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -102,7 +115,7 @@
         0
       ]
     },
-    "timestamp": 1459316853
+    "timestamp": 1459494454
   },
   "RSpec": {
     "coverage": {
@@ -115,9 +128,22 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "/home/ubuntu/workspace/bdd-tdd-cycle/rottenpotatoes/app/controllers/movies_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -207,6 +233,6 @@
         0
       ]
     },
-    "timestamp": 1459319703
+    "timestamp": 1459494526
   }
 }

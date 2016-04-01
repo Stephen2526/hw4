@@ -1,10 +1,19 @@
 -# in app/views/movies/similar.html.haml
 
--# %h2 Movies Directed by #{@movie.director}
+%h2 Movies Directed by #{@movie.director}
 
--# %ul#movies
--#   -@movies.each do |movie|
--#   %li = movie.title
-
-
--# = link_to 'Back to movie list', movies_path
+%table#movies
+  %thead
+    %tr
+      %th Title
+      %th Rating
+      %th Release_date
+      %th More Info
+  %tbody
+    - @movies.each do |movie|
+      %tr
+        %td= movie.title 
+        %td= movie.rating
+        %td= movie.release_date
+        %td= link_to "More about #{movie.title}", movie_path(movie)
+= link_to 'Back to movie list', movies_path
